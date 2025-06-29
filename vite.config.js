@@ -9,5 +9,5 @@ export default defineConfig({
      tailwindcss(),
     react(),
   ],
-  base:"/WorkPilot",
+  base:process.env.VITE_BASE_PATH || "/WorkPilot"
 })
